@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+/* title */
+
+/* header */
+
+header {
+  background: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)),
+    url(../img/banner2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 55vh;
+}
+header p {
+  text-align: center;
+  transform: translateY(50%);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+header p i {
+  font-size: 0.6rem;
+}
+header p a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #ff6600;
+}
+header .navbar .container button {
+  color: transparent;
+  border: solid 1px transparent;
+}
+header .navbar .container form {
+  align-items: center;
+}
+header .navbar .container form input ~ i {
+  transform: translateX(-40px);
+}
+header .navbar .container a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+/* footer */
