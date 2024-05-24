@@ -36,74 +36,79 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav class="navbar pt-5">
-          <div class="container">
-            <a class="navbar-brand">Diner</a>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <i class="fa-solid fa-magnifying-glass text-danger fs-6"></i>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar"
-                aria-label="Toggle navigation"
-              >
-                <span class="text-white"
-                  ><i class="fa-solid fa-bars fs-2"></i
-                ></span>
-              </button>
-            </form>
-            <div
-              class="offcanvas"
-              tabindex="-1"
-              id="offcanvasNavbar"
-              aria-labelledby="offcanvasNavbarLabel"
+      <nav class="navbar pt-5">
+        <div class="container">
+          <a class="navbar-brand">Diner</a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <a href=""
+              ><i class="fa-solid fa-magnifying-glass text-danger fs-6"></i
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
             >
-              <div class="offcanvas-header">
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <p class="text-white">
-          <a href="">home</a>
-          <i class="fa-solid fa-angles-right text-white"></i> services page
-        </p>
+              <span class="text-white"
+                ><i class="fa-solid fa-bars fs-2"></i
+              ></span>
+            </button>
+          </form>
+        </div>
+      </nav>
+      <p class="text-white">
+        <a href="./index.html">home</a>
+        <i class="fa-solid fa-angles-right text-white"></i> services page
+      </p>
+      <div
+        class="offcanvas"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+        data-bs-scroll="true"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark text-light"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body text-center">
+          <ul
+            class="navbar-nav justify-content-center align-items-center flex-grow-1 text-white"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blogPosts.html">Blog Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./404Page.html">404 Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <section>

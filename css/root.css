@@ -6,25 +6,26 @@
   font-size: 16px;
 }
 /* title */
-
 /* header */
-
 header {
   background: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)),
     url(../img/banner2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 55vh;
+  min-height: 350px;
 }
 header p {
   text-align: center;
-  transform: translateY(50%);
+  vertical-align: middle;
   text-transform: capitalize;
   font-size: 1.2rem;
+  transform: translateY(200%);
+  font-weight: 600;
 }
 header p i {
   font-size: 0.6rem;
+  margin: 0 10px;
 }
 header p a {
   text-decoration: none;
@@ -38,12 +39,51 @@ header .navbar .container button {
 header .navbar .container form {
   align-items: center;
 }
-header .navbar .container form input ~ i {
-  transform: translateX(-40px);
+header .navbar .container form input {
+  width: 250px;
+  padding: 10px 20px;
 }
-header .navbar .container a {
+header .navbar .container form input ~ a {
+  transform: translateX(-40px);
+  color: #ff6600;
+}
+header .navbar .container > a {
   font-size: 2rem;
   font-weight: 700;
   color: white;
+}
+@media screen and (max-width: 600px) {
+  header .navbar .container form input,
+  header .navbar .container form input ~ a {
+    display: none;
+  }
+}
+header .offcanvas {
+  width: 100%;
+  height: 100vh;
+  transform: scale(0);
+  background-color: rgb(6 3 0 / 77%);
+}
+header .offcanvas .offcanvas-header {
+  justify-content: flex-end;
+}
+header .offcanvas .offcanvas-header button.btn-close {
+  background-image: none;
+  background-color: #ff6600;
+  margin-right: 30px;
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+header .offcanvas .offcanvas-body ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: 600;
+}
+header .offcanvas .offcanvas-body ul li > a:hover {
+  color: #ff6600;
 }
 /* footer */

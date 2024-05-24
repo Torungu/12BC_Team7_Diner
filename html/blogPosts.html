@@ -23,12 +23,109 @@
       rel="stylesheet"
     />
 
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="../css/root.css" />
     <link rel="stylesheet" href="../css/blogPosts.css" />
   </head>
   <body>
-    <header></header>
-    <section></section>
+    <header>
+      <nav class="navbar pt-5">
+        <div class="container">
+          <a class="navbar-brand">Diner</a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <a href=""
+              ><i class="fa-solid fa-magnifying-glass text-danger fs-6"></i
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="text-white"
+                ><i class="fa-solid fa-bars fs-2"></i
+              ></span>
+            </button>
+          </form>
+        </div>
+      </nav>
+      <p class="text-white">
+        <a href="./index.html">home</a>
+        <i class="fa-solid fa-angles-right text-white"></i> Blog Posts
+      </p>
+      <div
+        class="offcanvas"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+        data-bs-scroll="true"
+      >
+        <div class="offcanvas-header">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            <i class="fa-solid fa-xmark text-light"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body text-center">
+          <ul
+            class="navbar-nav justify-content-center align-items-center flex-grow-1 text-white"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blogPosts.html">Blog Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./404Page.html">404 Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section>
+      <h1>BLOG POSTS</h1>
+    </section>
     <footer></footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
