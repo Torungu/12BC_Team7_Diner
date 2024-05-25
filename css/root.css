@@ -64,12 +64,6 @@ header .navbar > a.navbar-brand {
   font-weight: 700;
   color: white;
 }
-@media screen and (max-width: 600px) {
-  header .navbar form input,
-  header .navbar form input ~ a {
-    display: none;
-  }
-}
 header .offcanvas {
   width: 100%;
   height: 100vh;
@@ -177,4 +171,12 @@ footer .footer_copyright a {
 footer .footer_copyright a:hover {
   color: white;
   transition: all 0.5s;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  header .navbar form input,
+  header .navbar form input ~ a {
+    display: none;
+  }
 }

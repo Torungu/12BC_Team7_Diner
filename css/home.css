@@ -33,12 +33,76 @@ header.header_home .header_content button:hover {
   background-color: white;
   color: #ff6600;
 }
+
+/* aboutUs */
+.home_aboutUs .container .row .home_aboutUs_content {
+  line-height: 1.8;
+}
+.home_aboutUs .container .row .home_aboutUs_content p {
+  font-size: 1.1rem;
+}
+
+/* carousel */
+.home_carousel {
+  overflow-x: hidden;
+  background-color: #ff6600;
+}
+.home_carousel_left {
+  background: url(../img/banner3.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 90vh;
+  position: relative;
+}
+.home_carousel_left::before {
+  content: "";
+  background-color: rgb(16 15 19 / 46%);
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+}
+.home_carousel_right p {
+  font-weight: 100;
+  font-size: 1.1rem;
+}
+.home_carousel_right i {
+  color: #ff6600;
+  background-color: white;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.home_carousel_right .d-flex a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 700;
+}
+.home_carousel_right .col.d-flex:hover > i {
+  color: #ffc600;
+  transition: all 0.5s;
+}
+
+/* responsive */
 @media screen and (max-width: 1200px) {
   header.header_home .header_content {
     width: 100%;
   }
   header.header_home .header_content p {
     width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .home_carousel_left {
+    min-height: 50vh;
+  }
+  .home_carousel_right .diner_title > p {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -48,22 +112,13 @@ header.header_home .header_content button:hover {
   header.header_home .header_content p {
     width: 90%;
   }
+  .home_carousel_right .diner_title > p {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 600px) {
   header .navbar form input,
   header .navbar form input ~ a {
     display: none;
   }
-}
-
-/* aboutUs */
-.home_aboutUs .row {
-  justify-content: space-between;
-  align-items: center;
-}
-.home_aboutUs .container .row .home_aboutUs_content {
-  line-height: 1.8;
-}
-.home_aboutUs .container .row .home_aboutUs_content p {
-  font-size: 1.1rem;
 }
