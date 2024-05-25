@@ -60,7 +60,7 @@ header .navbar .container form input ~ a {
   color: #ff6600;
 }
 header .navbar .container > a {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 700;
   color: white;
 }
