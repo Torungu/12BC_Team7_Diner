@@ -1,18 +1,69 @@
 /* header */
 header.header_home {
-  height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgb(236 98 6 / 98%),
+      hsl(30deg 100% 1% / 20%)
+    ),
+    url(../img/banner1.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 header.header_home h1 {
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 3.4rem;
 }
-
 header.header_home .header_content {
   text-align: left;
-  width: 50%;
+  width: 60%;
 }
 header.header_home .header_content p {
   transform: translateY(0);
   text-align: left;
+  font-weight: 300;
+  font-size: 1rem;
+}
+header.header_home .header_content button {
+  font-weight: 600;
+  color: white;
+}
+header.header_home .header_content button:hover {
+  background-color: white;
+  color: #ff6600;
+}
+@media screen and (max-width: 1200px) {
+  header.header_home .header_content {
+    width: 100%;
+  }
+  header.header_home .header_content p {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header.header_home .header_content h1 {
+    font-size: 2.5rem;
+  }
+  header.header_home .header_content p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  header .navbar form input,
+  header .navbar form input ~ a {
+    display: none;
+  }
+}
+
+/* aboutUs */
+.home_aboutUs .row {
+  justify-content: space-between;
+  align-items: center;
+}
+.home_aboutUs .container .row .home_aboutUs_content {
+  line-height: 1.8;
+}
+.home_aboutUs .container .row .home_aboutUs_content p {
+  font-size: 1.1rem;
 }
