@@ -59,7 +59,7 @@ header .navbar form input ~ a {
   transform: translateX(-40px);
   color: #ff6600;
 }
-header .navbar > a {
+header .navbar > a.navbar-brand {
   font-size: 2.25rem;
   font-weight: 700;
   color: white;
