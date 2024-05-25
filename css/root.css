@@ -44,22 +44,22 @@ header p a {
   font-size: 1.2rem;
   color: #ff6600;
 }
-header .navbar .container button {
+header .navbar button {
   color: transparent;
   border: solid 1px transparent;
 }
-header .navbar .container form {
+header .navbar form {
   align-items: center;
 }
-header .navbar .container form input {
+header .navbar form input {
   width: 250px;
   padding: 10px 20px;
 }
-header .navbar .container form input ~ a {
+header .navbar form input ~ a {
   transform: translateX(-40px);
   color: #ff6600;
 }
-header .navbar .container > a {
+header .navbar > a {
   font-size: 2.25rem;
   font-weight: 700;
   color: white;

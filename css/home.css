@@ -1,0 +1,18 @@
+/* header */
+header.header_home {
+  height: 100vh;
+}
+header.header_home h1 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 3.4rem;
+}
+
+header.header_home .header_content {
+  text-align: left;
+  width: 50%;
+}
+header.header_home .header_content p {
+  transform: translateY(0);
+  text-align: left;
+}
