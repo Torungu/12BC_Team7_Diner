@@ -14,7 +14,7 @@
 }
 .diner_title > h1 + p {
   color: black;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -65,8 +65,8 @@ header .navbar > a.navbar-brand {
   color: white;
 }
 @media screen and (max-width: 600px) {
-  header .navbar .container form input,
-  header .navbar .container form input ~ a {
+  header .navbar form input,
+  header .navbar form input ~ a {
     display: none;
   }
 }
