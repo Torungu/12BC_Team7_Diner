@@ -5,20 +5,20 @@
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
 }
-/* title */
-.diner_title > h1 {
+/* Title */
+.diner_title h1 {
   font-family: "Pacifico", sans-serif;
   font-size: 1.25rem;
   color: #ff6600;
   font-weight: 400;
 }
-.diner_title > h1 + p {
+.diner_title p {
   color: black;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 
-/* header */
+/* Header */
 header {
   background: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)),
     url(../img/banner2.jpg) no-repeat;
@@ -94,7 +94,7 @@ header .offcanvas .offcanvas-body ul li > a:hover {
   color: #ff6600;
 }
 
-/* footer */
+/* Footer */
 footer {
   min-height: 350px;
 }
@@ -173,7 +173,7 @@ footer .footer_copyright a:hover {
   transition: all 0.5s;
 }
 
-/* responsive */
+/* Responsive */
 @media screen and (max-width: 600px) {
   header .navbar form input,
   header .navbar form input ~ a {
