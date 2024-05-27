@@ -1,0 +1,51 @@
+.stt {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  width: 37px;
+  height: 37px;
+  padding: 5px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.stt:hover {
+  opacity: 1;
+}
+
+.stt__active {
+  visibility: visible;
+  opacity: 0.5;
+}
+
+.stt__circle__black {
+  background-color: #ff6600;
+  border-radius: 50%;
+}
+
+.stt__circle__black:before {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  display: block;
+  width: 15px;
+  height: 5px;
+  content: "";
+  background-color: #fff;
+  transform: translate(0, -50%) rotate(45deg);
+}
+
+.stt__circle__black:after {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  display: block;
+  width: 15px;
+  height: 5px;
+  content: "";
+  background-color: #fff;
+  transform: translate(0, -50%) rotate(-45deg);
+}
