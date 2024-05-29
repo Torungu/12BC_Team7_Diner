@@ -18,7 +18,7 @@ Vercel: https://wp.w3layouts.com/diner/
 Youtube:
 <br>
 
-## ~ Collaborator:
+## ~ Collaborator & Stats:
 <p>
   <a href="https://github.com/toanphangl1997" ">
     <img src="https://avatars.githubusercontent.com/u/169327387?v=4" style="width:50px" alt="Image"/>
