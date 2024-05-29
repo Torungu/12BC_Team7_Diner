@@ -1,0 +1,17 @@
+/* Plans */
+.services_food h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.services_food h6 {
+  color: #ff6600;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.services_item {
+  margin: 25px 0;
+}
+.services_item p {
+  color: rgba(0, 0, 0, 0.6);
+  border-top: dotted 2px rgba(0, 0, 0, 0.3);
+}
