@@ -1,3 +1,0 @@
-Cam: #FF6600;
-Vàng nhạt: #FFC600;
-Vàng: #E2B206;

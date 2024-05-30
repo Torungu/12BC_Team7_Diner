@@ -5,45 +5,178 @@
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
 }
-/* title */
+/* Title */
+.diner_title h1 {
+  font-family: "Pacifico", sans-serif;
+  font-size: 1.25rem;
+  color: #ff6600;
+  font-weight: 400;
+}
+.diner_title p {
+  color: black;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
 
-/* header */
-
+/* Header */
 header {
   background: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)),
     url(../img/banner2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 55vh;
+  min-height: 350px;
 }
 header p {
   text-align: center;
-  transform: translateY(50%);
+  vertical-align: middle;
   text-transform: capitalize;
   font-size: 1.2rem;
+  transform: translateY(200%);
+  font-weight: 600;
 }
 header p i {
   font-size: 0.6rem;
+  margin: 0 10px;
 }
 header p a {
   text-decoration: none;
   font-size: 1.2rem;
   color: #ff6600;
 }
-header .navbar .container button {
+header .navbar button {
   color: transparent;
   border: solid 1px transparent;
 }
-header .navbar .container form {
+header .navbar form {
   align-items: center;
 }
-header .navbar .container form input ~ i {
-  transform: translateX(-40px);
+header .navbar form input {
+  width: 250px;
+  padding: 10px 20px;
 }
-header .navbar .container a {
-  font-size: 2rem;
+header .navbar form input ~ a {
+  transform: translateX(-40px);
+  color: #ff6600;
+}
+header .navbar > a.navbar-brand {
+  font-size: 2.25rem;
   font-weight: 700;
   color: white;
 }
-/* footer */
+header .offcanvas {
+  width: 100%;
+  height: 100vh;
+  transform: scale(0);
+  background-color: rgb(6 3 0 / 77%);
+}
+header .offcanvas .offcanvas-header {
+  justify-content: flex-end;
+}
+header .offcanvas .offcanvas-header button.btn-close {
+  background-image: none;
+  background-color: #ff6600;
+  margin-right: 30px;
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 1;
+}
+header .offcanvas .offcanvas-body ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: 600;
+}
+header .offcanvas .offcanvas-body ul li > a:hover {
+  color: #ff6600;
+}
+
+/* Footer */
+footer {
+  min-height: 350px;
+}
+footer .footer_item h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+footer .footer_item:first-child h1 > a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+footer .footer_item:first-child h1 > a:hover {
+  color: #ff6600;
+  transition: all 0.5s;
+}
+footer .footer_item ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer .footer_item p,
+footer .footer_item a {
+  color: #a5a2a1;
+  text-decoration: none;
+}
+footer .footer_item a:hover {
+  color: #ff6600;
+  transition: all 0.5s;
+}
+footer .footer_item:first-child i {
+  font-size: 1rem;
+}
+footer .footer_item:first-child ul li a {
+  display: inline-block;
+  color: #ff6600;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+footer .footer_item:first-child ul li a:hover {
+  background-color: #ff6600;
+  color: white;
+  transition: all 0.5s;
+}
+footer .footer_item:last-child input {
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px transparent;
+  outline: none;
+}
+footer .footer_item:last-child input:focus {
+  border: solid 1px #ff6600;
+}
+footer .footer_item:last-child button {
+  width: 100%;
+  background-color: #ff6600;
+  font-weight: 600;
+  border-radius: 10px;
+}
+footer .footer_item:last-child button:hover {
+  opacity: 80%;
+  transition: all 0.5s;
+}
+footer .footer_copyright {
+  border-top: solid 1px rgb(255 255 255 / 5%);
+}
+footer .footer_copyright a {
+  color: #ff6600;
+  text-decoration: none;
+}
+footer .footer_copyright a:hover {
+  color: white;
+  transition: all 0.5s;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  header .navbar form input,
+  header .navbar form input ~ a {
+    display: none;
+  }
+}
