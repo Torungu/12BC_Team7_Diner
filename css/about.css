@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  color: rgba(22, 28, 45, 0.7);
+  font-family: "Quicksand", sans-serif;
+}
+/* about */
+.about_us .about_title span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ff6600;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.about_us .about_title h2 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #232121;
+}
+.about_us .about_left img {
+  border-radius: 6px;
+}
+.about_us .about_right h3 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #232121;
+}
+.about_us .about_right p {
+  line-height: 26px;
+}
+.about_us .about_right a {
+  color: white;
+}
+.about_us .about_right button {
+  padding: 12px 45px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-color: #ff6600;
+  color: white;
+}
+.about_us .about_right button:hover {
+  color: #fff;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  opacity: 0.8;
+}
+.about_us .container .gird {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  align-items: center;
+}
+.about_us .gird .gird_item h3 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #232121;
+}
+.about_us .gird .gird_item h4 a {
+  color: #ff6600;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.about_us .gird .gird_item h4 a:hover {
+  color: #ffc600;
+}
+/* skill */
+.skills {
+  background-color: #f7f7f7;
+}
+.skills .skills_bar .progress {
+  display: flex;
+  height: 8px;
+  overflow: hidden;
+  font-size: 16px;
+  background-color: rgba(22, 28, 45, 0.7);
+  border-radius: 30px;
+}
+.skills .skills_bar .progress .progress-bar {
+  background-color: #ff6600;
+}
+.skills .skill_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 30px;
+}
+.skills .skill_img img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.skills .col-5 {
+  margin: 100px 0;
+}
+.skills .col-7 {
+  margin: 50px 0;
+}
+.skills .col-5 span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ff6600;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.skills .col-5 h3 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #232121;
+}
+.skills .col-5 p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.skills .col-5 .progress_title {
+  font-size: 18px;
+  color: #232121;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+/* teams */
+.teams .col-4 .team_img img {
+  width: 100%;
+}
+.teams .teams_title span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ff6600;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+.teams .teams_title h3 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #232121;
+}
+.teams .team_member a {
+  margin: 25px 0 0px;
+  font-size: 24px;
+  color: #232121;
+  font-weight: 700;
+  text-decoration: none;
+}
+.teams .team_member p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.teams .overlay i {
+  color: #fff;
+  font-size: 16px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  line-height: 42px;
+  text-align: center;
+  background: rgba(157, 157, 157, 0.5);
+}
+.teams .team_name a {
+  transition: all 0.5s;
+}
+.teams .team_name:hover a {
+  color: #ff6600;
+}
