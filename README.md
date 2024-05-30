@@ -13,7 +13,7 @@
 <br>
 
 ## ~ Links Deploy:
-- ✨ Vercel: https://wp.w3layouts.com/diner/
+- ✨ Vercel: https://12-bc-team7-diner-gvd5.vercel.app/
 - ✨ Youtube:
 - ✨ Collaborator & Stats: <p><a href="https://github.com/toanphangl1997"><img src="https://avatars.githubusercontent.com/u/169327387?v=4" style="width:50px" alt="Image"/></a> <a href="https://github.com/TranDoanThanhHau"><img src="https://avatars.githubusercontent.com/u/170351033?v=4" style="width:50px" alt="Image"/></a></p>
   
