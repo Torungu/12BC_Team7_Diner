@@ -70,12 +70,12 @@
   opacity: 0.8;
 }
 /* view */
-.contacts .contact_view {
+/* .contacts .contact_view {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
   grid-gap: 20px;
   margin-bottom: 70px;
-}
+} */
 .contacts .contact_detail .contact_view_text span {
   font-size: 20px;
   font-weight: 400;
