@@ -12,10 +12,13 @@
 </p>
 <br>
 
-## ~ Links Deploy:
+## ~ Collaborator & Stats:
 <img src="./img/Diner7_TeamStats.png" width="75%" align="right">
-
--✨ Collaborator & Stats:<p><a href="https://github.com/toanphangl1997"><img src="https://avatars.githubusercontent.com/u/169327387?v=4" style="width:50px" alt="Image"/></a> <a href="https://github.com/TranDoanThanhHau"><img src="https://avatars.githubusercontent.com/u/170351033?v=4" style="width:50px" alt="Image"/></a></p>
+<p>
+  <p>Phan Chí Toàn<br><a href="https://github.com/toanphangl1997"><img src="https://avatars.githubusercontent.com/u/169327387?v=4" style="width:50px" alt="Image"/></a></p>
+  <br>
+  <p>Trần Đoàn Thanh Hậu<br><a href="https://github.com/TranDoanThanhHau"><img src="https://avatars.githubusercontent.com/u/170351033?v=4" style="width:50px" alt="Image"/></a></p>
+</p>
 
   
   
